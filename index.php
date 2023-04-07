@@ -177,7 +177,7 @@
            </div>
         </div>
     </div>
-    <script src="../public/js/main.js"></script>
+    <script src="public/js/main.js"></script>
 
 
 <tbody class="body2 dark2">
@@ -186,7 +186,7 @@
             <h1 class="logo">Contact <span>Us</span></h1>
             
             <form action="" method="post">
-                <?php require '../includes/email.php'?>
+                <?php require '/includes/email.php'?>
                
                     <input type="text" name="nombre" placeholder="nombre" required>
                     <input type="email" name="email" placeholder="email" required>

@@ -52,10 +52,10 @@ function enviarEmail(){
 
 
             $mail->send();
-            echo 'Message has been sent';
+            echo 'Message enviado';
             require_once '../views/index.php';
         } catch (Exception $e) {
-            echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+            echo 'Error: ', $mail->ErrorInfo;
         }
        
 
