@@ -1,0 +1,19 @@
+body {
+  background-image:url(4.jpg);
+  display: flex;
+}
+table,th,td{
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+th{
+background: rgb(133, 235, 172) ;
+color:white;
+}
+th,td{
+text-align: center;
+}
+table{
+width: 100%;
+}

@@ -1,0 +1,14 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(34, 25, 114);
+    color:white;
+}
+th,td{
+    text-align: center;
+}
+table{
+    width: 100%;
+}

@@ -1,0 +1,285 @@
+.dark{
+    background-image:url(5.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#modo{
+    width: 30px;
+    font-size: 60px;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+.dark #modo{
+    color: crimson;
+}
+.dark .contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgba(90, 82, 82, 0.572);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.49);
+}
+.dark .contenedor .izquierdo
+{
+    background: rgba(105, 15, 87, 0.542);
+}
+
+.perfil h2{
+    color: rgb(243, 243, 243);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+}
+.Datos li{
+    margin-bottom: 15xp;
+    list-style: none;
+    color: white;
+}
+.dark .Datos li b{
+    color:rgb(239, 108, 191);
+} b
+.info{
+   padding-top: 40px; 
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;  
+}
+.info ul{
+    position: relative;
+}
+.info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.info ul li .icon{
+    display: inline-block;
+    width: 12px;
+    font-size: 15px;
+    color: rgb(239, 108, 191);
+}
+.info ul li span{
+    color: white;
+    font-weight: 300;
+}
+.info ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.Educacion li{
+margin-bottom: 15xp;
+list-style: none;
+}
+.Educacion h5{
+ color:rgb(239, 108, 191);
+ font-weight: 500;
+ 
+}
+.Educacion h4{
+    color: white;
+    font-weight: 500;
+   }
+.Educacion h4{
+    color: white;
+    font-weight: 300;
+   }
+
+
+.dark .contenedor .derecho 
+{
+    position: relative;
+    background:transparent;
+    padding: 40px; 
+}
+
+.Eventos{
+    margin-bottom: 50px;
+}
+.Eventos 
+.title2{
+    color:rgb(255, 10, 104);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.Eventos li{
+    margin-bottom: 15xp;
+    list-style: none;
+    color: white;
+}
+.Eventos h4{
+    color:rgb(255, 10, 104);
+ font-weight: 500
+}
+.dark .Eventos h3{
+    color:white;
+ font-weight: 500
+}
+.Redes{
+    padding-top: 40px; 
+ }
+ .title2{
+     color:rgb(255, 10, 104);
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-bottom: 20px;  
+ }
+ .Redes ul{
+     position: relative;
+ }
+ .Redes ul li{
+     position: relative;
+     list-style: none;
+     margin: 5px 0;
+     cursor: pointer;
+ }
+ .Redes ul li .icon{
+     display: inline-block;
+     width: 40px;
+     font-size: 18px;
+     color: rgb(255, 10, 104);
+ }
+ .dark .Redes ul li .text{
+    color:white;
+}
+ 
+ .skill .box{
+     position: relative;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 150px 1fr;
+     justify-content: center;
+     align-items: center;
+ }
+ .dark .skill .box h4 {
+     text-transform: uppercase;
+     color:white;
+     font-weight: 500;
+ }
+ .skill .box  .percent{
+     position: relative;
+     width: 100%;
+     height: 10px;
+     background: rgb(252, 252, 252);
+ }
+ 
+.dark .skill .box  .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(255, 10, 104);
+}
+.aficiones ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.dark .aficiones ul li{
+    list-style: none;
+    color:white;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.aficiones ul li .fa{
+    color: rgb(255, 10, 104);
+    font-size: 18px;
+    width: 20px;
+}
+.dark .cursos .title2{
+    color:rgb(255, 10, 104);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.dark .cursos li{
+    margin-bottom: 15xp;
+    list-style: none;
+    color: white;
+}
+.cursos a {
+    text-decoration: none;
+}
+.cursos h4{
+    color:rgb(255, 10, 104);
+    font-weight: 500;
+    
+ 
+}
+.dark .cursos h3{
+    color: rgb(255, 255, 255);
+    font-weight: 500
+}
+
+.body2{
+margin: 0;
+margin: auto;
+}
+.dark .contact .logo {
+color: white;
+background: rgba(105, 15, 87, 0.542);
+}
+.logo span{
+    color:rgb(255, 10, 104);
+}
+.dark .contact{
+    width: 450px;
+    margin: auto;
+    background: rgba(105, 15, 87, 0.542);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+
+}
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ input textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+#boton{
+    background: rgb(255, 10, 104);
+    color: white;
+    padding: 20px;
+}
+#boton{
+    cursor: pointer;
+}
+
+@media(max-width:480px){
+    form{
+        width: 100%;
+    }
+}
