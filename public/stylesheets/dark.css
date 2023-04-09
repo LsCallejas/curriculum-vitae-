@@ -66,7 +66,7 @@
     margin: 10px 0;
     cursor: pointer;
 }
-.info ul li .icon{
+.dark .info ul li .icon{
     display: inline-block;
     width: 12px;
     font-size: 15px;
@@ -85,7 +85,7 @@
 margin-bottom: 15xp;
 list-style: none;
 }
-.Educacion h5{
+.dark .Educacion h5{
  color:rgb(239, 108, 191);
  font-weight: 500;
  

@@ -3,8 +3,8 @@
 <head>
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="../public/stylesheets/c3.css"> 
-    <link rel="stylesheet" href="../public/stylesheets/dark.css">
+    <link rel="stylesheet" href="public/stylesheets/c3.css"> 
+    <link rel="stylesheet" href="public/stylesheets/dark.css">
 </head>
 <body class="dark">
    <div class="modo" id="modo">
@@ -15,7 +15,7 @@
            
            <div class="perfil">
             <div class="img">
-                 <img src ="../public/stylesheets/PERFIL.jpg"  alt="esta imagen no se puede procesar">
+                 <img src ="public/stylesheets/PERFIL.jpg"  alt="esta imagen no se puede procesar">
             </div>
             <h2>Leidy Callejas</h2>
         </div>
@@ -199,4 +199,3 @@
         </div> 
 </tbody>
 </body>
-</html>

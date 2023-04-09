@@ -2,10 +2,10 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '../vendor/phpmailer/phpmailer/src/Exception.php';
-require '../vendor/phpmailer/PHPMailer/src/PHPMailer.php';
-require '../vendor/phpmailer/PHPMailer/src/SMTP.php';
-require '../vendor/autoload.php';
+require 'vendor/phpmailer/phpmailer/src/Exception.php';
+require 'vendor/phpmailer/PHPMailer/src/PHPMailer.php';
+require 'vendor/phpmailer/PHPMailer/src/SMTP.php';
+require 'vendor/autoload.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
@@ -13,6 +13,7 @@ $dotenv->load();
 enviarEmail();
 
 function enviarEmail(){
+
     if(isset($_POST['nombre']) && isset($_POST['email']) && isset($_POST['Comentario'])){
         //mandar correo
         $name = $_POST['nombre'];
@@ -53,7 +54,7 @@ function enviarEmail(){
 
             $mail->send();
             echo 'Message enviado';
-            require_once '../views/index.php';
+            require_once 'index.php';
         } catch (Exception $e) {
             echo 'Error: ', $mail->ErrorInfo;
         }
