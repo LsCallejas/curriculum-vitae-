@@ -53,7 +53,7 @@ function enviarEmail(){
 
 
             $mail->send();
-            echo 'Message enviado';
+            echo 'Mensaje enviado';
             require_once 'index.php';
         } catch (Exception $e) {
             echo 'Error: ', $mail->ErrorInfo;
