@@ -186,7 +186,7 @@
             <h1 class="logo">Contact <span>Us</span></h1>
             
             <form action="" method="post">
-                <?php require 'includes/email.php'?>
+                <?php require 'incluye/email.php'?>
                
                     <input type="text" name="nombre" placeholder="nombre" required>
                     <input type="email" name="email" placeholder="email" required>
