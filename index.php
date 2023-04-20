@@ -186,7 +186,12 @@
             <h1 class="logo">Contact <span>Us</span></h1>
             
             <form action="" method="post">
+                require 'vendor/autoload.php';
+
+                 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ );
+                 $dotenv->load();
                 <?php require 'incluye/email.php'?>
+                
                
                     <input type="text" name="nombre" placeholder="nombre" required>
                     <input type="email" name="email" placeholder="email" required>
