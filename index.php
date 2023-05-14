@@ -180,17 +180,15 @@
     <script src="public/js/main.js"></script>
 
 
-<!--<tbody class="body2 dark2">
+<tbody class="body2 dark2">
 
         <div class="contact">
             <h1 class="logo">Contact <span>Us</span></h1>
             
             <form action="" method="post">
-            <?php require 'vendor/autoload.php';
+            <?php require 'incluye/email.php'?>
 
-                 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ );
-                 $dotenv->load();
-                 require 'incluye/email.php'?>
+                
                 
                
                     <input type="text" name="nombre" placeholder="nombre" required>
@@ -202,5 +200,5 @@
             
             
         </div> 
-</tbody>-->
+</tbody>
 </body>
