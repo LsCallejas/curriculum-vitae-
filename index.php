@@ -180,7 +180,7 @@
     <script src="public/js/main.js"></script>
 
 
-<tbody class="body2 dark2">
+<!--<tbody class="body2 dark2">
 
         <div class="contact">
             <h1 class="logo">Contact <span>Us</span></h1>
@@ -202,5 +202,5 @@
             
             
         </div> 
-</tbody>
+</tbody>-->
 </body>
