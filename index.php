@@ -146,7 +146,19 @@
                 <div class="percent">
                     <div style="width: 60%;"></div>
                 </div>
-              </div>  <br>
+              </div>
+              <div class="box">
+                <h4>SQL</h4>
+                <div class="percent">
+                    <div style="width: 60%;"></div>
+                </div>
+              </div>
+              <div class="box">
+                <h4>GIT</h4>
+                <div class="percent">
+                    <div style="width: 40%;"></div>
+                </div>
+              </div><br>
  
           </div>
           <div class="aficiones">
