@@ -185,8 +185,8 @@
         <div class="contact">
             <h1 class="logo">Contact <span>Us</span></h1>
             
-            <form action="" method="post">
-            <?php require 'incluye/email.php'?>
+          <!---- <form action="" method="post">
+            /*<?php require 'incluye/email.php'?>*/
 
                 
                 
@@ -196,7 +196,7 @@
                     <textarea name="Comentario"  rows="10" placeholder="Escribir mensaje" required></textarea>
                      <input type="submit" value="ENVIAR" id="boton">
                      
-            </form>
+            </form>--->
             
             
         </div> 
